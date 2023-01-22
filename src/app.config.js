@@ -1,3 +1,4 @@
+/** @type {import('@tarojs/taro').AppConfig} */
 export default {
   pages: [
     'pages/index/index'

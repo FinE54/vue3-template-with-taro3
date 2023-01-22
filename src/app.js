@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import './app.scss'
+import 'windi.css';
 
 const App = createApp({
   onShow (options) {},

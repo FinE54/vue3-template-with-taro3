@@ -9,7 +9,7 @@ const config = {
   },
   sourceRoot: 'src',
   outputRoot: 'dist',
-  plugins: [],
+  plugins: ['tarojs-router-next-plugin', '@dcasia/mini-program-tailwind-webpack-plugin/dist/taro'],
   defineConstants: {
   },
   copy: {
