@@ -1,3 +1,5 @@
+import * as path from 'path'; //引入node的path模块
+
 const config = {
   projectName: 'taro-template-vue3',
   date: '2023-1-22',
@@ -6,6 +8,9 @@ const config = {
     640: 2.34 / 2,
     750: 1,
     828: 1.81 / 2
+  },
+  alias: {
+    "@src": path.resolve(__dirname, "..", "src"),
   },
   sourceRoot: 'src',
   outputRoot: 'dist',

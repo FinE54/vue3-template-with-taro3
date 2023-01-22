@@ -13,6 +13,7 @@ specifiers:
   '@types/webpack-env': ^1.13.6
   '@vue/compiler-sfc': ^3.0.0
   babel-preset-taro: 3.3.15
+  default-passive-events: ^2.0.0
   eslint: ^6.8.0
   eslint-config-taro: 3.3.15
   eslint-plugin-vue: ^7.0.0
@@ -27,6 +28,7 @@ dependencies:
   '@tarojs/components': registry.npmmirror.com/@tarojs/components/3.3.15
   '@tarojs/runtime': registry.npmmirror.com/@tarojs/runtime/3.3.15
   '@tarojs/taro': registry.npmmirror.com/@tarojs/taro/3.3.15
+  default-passive-events: registry.npmmirror.com/default-passive-events/2.0.0
   tarojs-router-next: registry.npmmirror.com/tarojs-router-next/3.2.0
   vue: registry.npmmirror.com/vue/3.2.45
 
@@ -5800,6 +5802,12 @@ packages:
       execa: registry.npmmirror.com/execa/1.0.0
       ip-regex: registry.npmmirror.com/ip-regex/2.1.0
     dev: true
+
+  registry.npmmirror.com/default-passive-events/2.0.0:
+    resolution: {integrity: sha512-eMtt76GpDVngZQ3ocgvRcNCklUMwID1PaNbCNxfpDXuiOXttSh0HzBbda1HU9SIUsDc02vb7g9+3I5tlqe/qMQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/default-passive-events/-/default-passive-events-2.0.0.tgz}
+    name: default-passive-events
+    version: 2.0.0
+    dev: false
 
   registry.npmmirror.com/defaults/1.0.4:
     resolution: {integrity: sha512-eFuaLoy/Rxalv2kr+lqMlUnrDWV+3j4pljOIJgLIhI058IQfWJ7vXhyEIHu+HtC738klGALYxOKDO0bQP3tg8A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/defaults/-/defaults-1.0.4.tgz}
