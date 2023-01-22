@@ -2,6 +2,8 @@
 import { createApp } from 'vue'
 import 'default-passive-events'
 
+// 引入状态管理
+import store from '@src/store'
 // 引入路由相关控件
 import "@src/router"
 // 引入组件样式
@@ -12,5 +14,7 @@ const App = createApp({
   onShow(options) { },
   // 入口组件不需要实现 render 方法，即使实现了也会被 taro 所覆盖
 })
+
+App.use(store)
 
 export default App

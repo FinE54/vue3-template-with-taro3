@@ -14,7 +14,7 @@ const config = {
   },
   sourceRoot: 'src',
   outputRoot: 'dist',
-  plugins: ['tarojs-router-next-plugin', '@dcasia/mini-program-tailwind-webpack-plugin/dist/taro'],
+  plugins: ['tarojs-router-next-plugin', '@dcasia/mini-program-tailwind-webpack-plugin/dist/taro', 'taro-plugin-pinia'],
   defineConstants: {
   },
   copy: {

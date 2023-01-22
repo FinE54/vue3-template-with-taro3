@@ -40,6 +40,8 @@
     "@tarojs/runtime": "3.3.15",
     "@tarojs/taro": "3.3.15",
     "default-passive-events": "^2.0.0",
+    "pinia": "^2.0.29",
+    "taro-plugin-pinia": "^1.0.0",
     "tarojs-router-next": "^3.2.0",
     "vue": "^3.0.0"
   },
