@@ -20,6 +20,7 @@ specifiers:
   pinia: ^2.0.29
   stylelint: 9.3.0
   taro-plugin-pinia: ^1.0.0
+  tarojs-request: ^1.0.0
   tarojs-router-next: ^3.2.0
   tarojs-router-next-plugin: ^3.2.0
   vue: ^3.0.0
@@ -33,6 +34,7 @@ dependencies:
   default-passive-events: registry.npmmirror.com/default-passive-events/2.0.0
   pinia: registry.npmmirror.com/pinia/2.0.29_vue@3.2.45
   taro-plugin-pinia: registry.npmmirror.com/taro-plugin-pinia/1.0.0
+  tarojs-request: registry.npmmirror.com/tarojs-request/1.0.0_@tarojs+taro@3.3.15
   tarojs-router-next: registry.npmmirror.com/tarojs-router-next/3.2.0
   vue: registry.npmmirror.com/vue/3.2.45
 
@@ -3406,6 +3408,15 @@ packages:
     version: 2.0.6
     dev: true
 
+  registry.npmmirror.com/abort-controller/3.0.0:
+    resolution: {integrity: sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/abort-controller/-/abort-controller-3.0.0.tgz}
+    name: abort-controller
+    version: 3.0.0
+    engines: {node: '>=6.5'}
+    dependencies:
+      event-target-shim: registry.npmmirror.com/event-target-shim/5.0.1
+    dev: false
+
   registry.npmmirror.com/accepts/1.3.8:
     resolution: {integrity: sha512-PYAthTa2m2VKxuvSD3DPC/Gy+U+sOA1LAuT8mkmRuvw+NACSaeXEQ+NHcVF7rONl6qcaxV3Uuemwawk+7+SJLw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/accepts/-/accepts-1.3.8.tgz}
     name: accepts
@@ -6586,6 +6597,13 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
+  registry.npmmirror.com/event-target-shim/5.0.1:
+    resolution: {integrity: sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/event-target-shim/-/event-target-shim-5.0.1.tgz}
+    name: event-target-shim
+    version: 5.0.1
+    engines: {node: '>=6'}
+    dev: false
+
   registry.npmmirror.com/eventemitter3/4.0.7:
     resolution: {integrity: sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eventemitter3/-/eventemitter3-4.0.7.tgz}
     name: eventemitter3
@@ -9089,6 +9107,12 @@ packages:
     name: known-css-properties
     version: 0.6.1
     dev: true
+
+  registry.npmmirror.com/koa-compose/4.1.0:
+    resolution: {integrity: sha512-8ODW8TrDuMYvXRwra/Kh7/rJo9BtOfPc6qO8eAfC80CnCvSjSl0bkRM24X6/XBBEyj0v1nRUQ1LyOy3dbqOWXw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/koa-compose/-/koa-compose-4.1.0.tgz}
+    name: koa-compose
+    version: 4.1.0
+    dev: false
 
   registry.npmmirror.com/less-loader/7.3.0_less@4.1.3+webpack@4.46.0:
     resolution: {integrity: sha512-Mi8915g7NMaLlgi77mgTTQvK022xKRQBIVDSyfl3ErTuBhmZBQab0mjeJjNNqGbdR+qrfTleKXqbGI4uEFavxg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/less-loader/-/less-loader-7.3.0.tgz}
@@ -13464,6 +13488,20 @@ packages:
     resolution: {integrity: sha512-Ip2LTRh7NGsFyEzkZWvU115xDqV3D8cRRbqqw0JKTvzHFBzpwycmrUVQQxV61AMg0r2RJm3mcEbQ997j7xNjtg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/taro-plugin-pinia/-/taro-plugin-pinia-1.0.0.tgz}
     name: taro-plugin-pinia
     version: 1.0.0
+    dev: false
+
+  registry.npmmirror.com/tarojs-request/1.0.0_@tarojs+taro@3.3.15:
+    resolution: {integrity: sha512-hR4R9PYn1eHC9r7FsIVjvjcVqsnpWYr0KKgr2oavJ6X+XaYnPMXC3GBfiwb0WmffoyljQHbKuml41xeYVCyncw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/tarojs-request/-/tarojs-request-1.0.0.tgz}
+    id: registry.npmmirror.com/tarojs-request/1.0.0
+    name: tarojs-request
+    version: 1.0.0
+    engines: {node: '>= 14'}
+    peerDependencies:
+      '@tarojs/taro': ^3.4.0
+    dependencies:
+      '@tarojs/taro': registry.npmmirror.com/@tarojs/taro/3.3.15
+      abort-controller: registry.npmmirror.com/abort-controller/3.0.0
+      koa-compose: registry.npmmirror.com/koa-compose/4.1.0
     dev: false
 
   registry.npmmirror.com/tarojs-router-next-plugin/3.2.0:
