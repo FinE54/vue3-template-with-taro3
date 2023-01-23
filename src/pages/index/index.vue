@@ -1,7 +1,7 @@
 <template>
-  <view class="index p-4">
-    <text>{{ msg }}</text>
-  </view>
+  <div>
+    <span>{{ msg }}</span>
+  </div>
 </template>
 
 <script>
