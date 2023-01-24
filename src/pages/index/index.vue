@@ -4,16 +4,12 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import { ref } from "vue";
 
-export default {
-  setup() {
-    const msg = ref("Hello world");
+const msg = ref("Hello world");
 
-    return {
-      msg,
-    };
-  },
+return {
+  msg,
 };
 </script>
