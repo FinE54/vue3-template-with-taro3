@@ -1,0 +1,8 @@
+html {
+  &.hydrated {
+    // 覆盖 Taro 创建的 h5 默认文字尺寸，主要用于 WindiCSS 尺寸计算
+    // 如果不设置此样式，则 WindiCSS 运行在 h5 的结果将比 weapp 大很多字号
+    // 此样式会影响 Taro 计算的字体大小在 Web 端的显示，小程序端不受此影响
+    font-size: calc(16px / 375px * 100vw) !important;
+  }
+}

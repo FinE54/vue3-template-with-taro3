@@ -1,5 +1,6 @@
 // 引入系统级别相关控件
 import { createApp } from 'vue'
+import { getSystemInfoSync, getEnv } from '@tarojs/taro'
 import 'default-passive-events'
 
 // 引入状态管理
@@ -11,7 +12,12 @@ import 'windi.css';
 import '@src/app.scss'
 
 const App = createApp({
-  onShow(options) { },
+  onLaunch(options) {
+    // 程序入口 onLaunch 时调用
+  },
+  onShow(options) {
+    // 程序显示 / 隐藏时调用
+  },
   // 入口组件不需要实现 render 方法，即使实现了也会被 taro 所覆盖
 })
 
